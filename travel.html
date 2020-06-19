@@ -45,19 +45,21 @@
                         </div>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a href="#testimonialContent" class="nav-link">Testimonial</a>
+                        <a href="#testimonialHeading" class="nav-link">Testimonial</a>
                     </li>
                 </ul>
                 <!-- Mobile Button -->
                 <form class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login my-2 my-sm-0">
+                    <button class="btn btn-login my-2 my-sm-0"
+                        onclick="event.preventDefault(); location.href='login.html';">
                         Masuk
                     </button>
                 </form>
 
                 <!-- Dekstop Button -->
                 <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4"
+                        onclick="event.preventDefault(); location.href='login.html';">
                         Masuk
                     </button>
                 </form>
@@ -200,7 +202,7 @@
             </div>
         </section>
         <!-- Testimonial -->
-        <section class="testimonial-heading">
+        <section class="testimonial-heading" id="testimonialHeading">
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
